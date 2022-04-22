@@ -64,6 +64,14 @@ After that it will send you the results and send you the timed subs in a file wh
 
 ![image](https://user-images.githubusercontent.com/13587295/164731471-4b3a7935-55c7-40e7-aeca-7caaa6ed7ee3.png)
 
+Result:  
+![image](https://user-images.githubusercontent.com/13587295/164727784-3c4bc4e4-6142-4f2a-b7f9-db258809c79d.png)
+
+I named the projectname test so the files wil be stored in /test/ like /test/test.txt, in the folder you can find some more files which speaks for themselves.
+![image](https://user-images.githubusercontent.com/13587295/164732244-732f30a4-cd3f-4f3d-a128-96e5a81f26c8.png)
+
+You can adapt the timings to your need with /tim and the options like `tim 0.5 5 2` which is standard
+
 
 
 
