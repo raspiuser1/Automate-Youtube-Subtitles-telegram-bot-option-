@@ -9,8 +9,8 @@ Then YouTube will determine the timing of the subtitles itself and this can take
 ## how does it work?
 The script allows you to turn plain text (in any language) to be translated into english and converted into an (.srt subtitle) timed format which you can upload to youtube studio.<br>
 
-There are 2 options:
--Run it as a telegram bot
--Stand alon via terminal
+There are 2 options:<br>
+-Run it as a telegram bot<br>
+-Stand alon via terminal<br>
 
 
