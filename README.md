@@ -45,7 +45,8 @@ as you can see the timing is adjusted accoring to the3 settings which you can ma
 - After:  
 ![image](https://user-images.githubusercontent.com/13587295/164727784-3c4bc4e4-6142-4f2a-b7f9-db258809c79d.png)
 
-- for plain text translating & converting to timed subs Just copy some text from a website and paste it into a txt file and run:
+- for plain text translating & converting to timed subs  
+Just copy some text from a website and paste it into a txt file and run:
 `python3 subs.py -tr textfile.txt`
 
 
