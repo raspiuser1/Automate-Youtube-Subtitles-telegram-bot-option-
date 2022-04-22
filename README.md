@@ -11,6 +11,13 @@ The script allows you to turn plain text (in any language) to be translated into
 
 There are 2 options:<br>
 -Run it as a telegram bot<br>
--Stand alon via terminal<br>
+-Run it Stand alone and control it via terminal<br>
+
+## Hardware needed?
+-Any ubuntu system will do im using an X64 machine with ubuntu 20+
+-Raspberry should work also (not tested)
+make sure you are using googletrans==3.1.0a0, install it via pip install googletrans==3.1.0a0
+
+
 
 
