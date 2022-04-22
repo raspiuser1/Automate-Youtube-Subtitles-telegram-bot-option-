@@ -22,13 +22,23 @@ There are 2 options:<br>
 
 # Option 1: Run stand alone
 - Login to youtube studio and download the file with your timed subs (caption.sbv). it will look like:
-![image](https://user-images.githubusercontent.com/13587295/164724031-f131aa77-35a6-49d3-ab02-cb1042fd9fee.png)
+![image](https://user-images.githubusercontent.com/13587295/164724031-f131aa77-35a6-49d3-ab02-cb1042fd9fee.png)  
+- Open the subs.py and edit some timing (if needed) in the top of the script  
 
-- copy the caption.sbv in the same folder as this script then command:
+#auto wait   
+woord = 0.5 #sleeptime(readtime) per word  
 
-python3 subs.py moviename
+#sleeptime after complete sentence with a dot(.)  
+zinsec = 5  
 
-the script will create a folder with your moviename, open it adn upload the txt file to youtube
+#start time first sub (max 59 sec)  
+subs.starttijd = 2   
+
+- copy the caption.sbv youve downloaded from youtube studio in the same folder as this script and then run command:   
+`python3 subs.py moviename`
+
+the script will create a folder with your moviename, open it and upload the txt file to youtube.  
+as you can see the timing is adjusted accoring to the3 settings which you can made.  
 
 
 for translating & converting to timed subs use:
