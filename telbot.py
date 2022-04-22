@@ -149,7 +149,7 @@ def tra(update: Update, context: CallbackContext):
     values()
     update.message.reply_text(waarden)
     update.message.reply_text("Translating and subbing is done, Upload this file in Youtube studio with timing enabled, Make sure"\
-                                      "the video is not longer then " + str(duration) + " or change the timing")
+                                      "the video is longer then " + str(duration) + " or change the timing")
 
     with open(directory + "/userinfo.txt", 'w') as f:
          f.write(userinfo)
