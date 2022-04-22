@@ -49,8 +49,10 @@ as you can see the timing is adjusted accoring to the3 settings which you can ma
 Just copy some text from a website and paste it into a txt file and run:
 `python3 subs.py -tr textfile.txt`
 
-
-
+# Option 2: Control it via Telegram
+- creat a Telegram bot @botfather see: https://t.me/botfather and https://core.telegram.org/bots
+- Put your key token in key.txt
+- Lookup your bot in telegram and send it a msg, send /suhelp to get the help menu
 
 ## Youtube video to come...
 
