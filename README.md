@@ -52,8 +52,8 @@ Just copy some text from a website and paste it into a txt file and run:
 # Option 2: Control it via Telegram
 - Create a Telegram bot @botfather see: https://t.me/botfather and https://core.telegram.org/bots
 - Put your key token in key.txt
-- Lookup your bot in telegram and send it a msg, send /suhelp to get the help menu, it wil look like:
-![image](https://user-images.githubusercontent.com/13587295/164730132-c8f527dc-4c17-420d-bb16-b3667476fd95.png)  
+- Lookup your bot in telegram and send it a msg, send `/suhelp` to get the help menu, it wil look like:
+![image](https://user-images.githubusercontent.com/13587295/164733539-cd93ab53-c213-403d-b7f5-c5caef7db68d.png)
 - Start with
 `/sustart`  
 and paste some text (in your own language), you can send multiple messages which will be merged together. Start the translating with `/tra projectname` in this example in using `test`  
