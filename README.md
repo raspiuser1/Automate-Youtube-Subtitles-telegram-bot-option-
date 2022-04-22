@@ -7,4 +7,10 @@ Normally if you have a standard text (in a non-English language) you first have 
 Then YouTube will determine the timing of the subtitles itself and this can take a while, after that then you have to adjust the timing of these subtitles yourself because its never good and its time consuming if you have a longer video. Also when the video is long youtube will spread the subs along the video so its possible to look at the same subs for 1 of 3 minutes and that's something you dont want.
 
 ## how does it work?
+The script allows you to turn plain text (in any language) to be translated into english and converted into an (.srt subtitle) timed format which you can upload to youtube studio.<br>
+
 There are 2 options:
+-Run it as a telegram bot
+-Stand alon via terminal
+
+
