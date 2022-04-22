@@ -50,9 +50,23 @@ Just copy some text from a website and paste it into a txt file and run:
 `python3 subs.py -tr textfile.txt`
 
 # Option 2: Control it via Telegram
-- creat a Telegram bot @botfather see: https://t.me/botfather and https://core.telegram.org/bots
+- Create a Telegram bot @botfather see: https://t.me/botfather and https://core.telegram.org/bots
 - Put your key token in key.txt
-- Lookup your bot in telegram and send it a msg, send /suhelp to get the help menu
+- Lookup your bot in telegram and send it a msg, send /suhelp to get the help menu, it wil look like:
+![image](https://user-images.githubusercontent.com/13587295/164730132-c8f527dc-4c17-420d-bb16-b3667476fd95.png)  
+- Start with
+`/sustart`  
+and paste some text (in your own language), you can send multiple messages which will be merged together. Start the translating with `/tra projectname` in this example in using `test`  
+
+![image](https://user-images.githubusercontent.com/13587295/164730863-a758c1ea-fc52-45c0-a32a-fc5315338d1e.png)
+
+After that it will send you the results and send you the timed subs in a file which is named after your projectname
+
+![image](https://user-images.githubusercontent.com/13587295/164731471-4b3a7935-55c7-40e7-aeca-7caaa6ed7ee3.png)
+
+
+
+
 
 ## Youtube video to come...
 
