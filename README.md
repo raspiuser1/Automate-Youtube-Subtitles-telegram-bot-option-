@@ -16,7 +16,9 @@ There are 2 options:<br>
 ## Hardware needed?
 -Any ubuntu system will do im using an X64 machine with ubuntu 20+
 -Raspberry should work also (not tested)
-make sure you are using googletrans==3.1.0a0, install it via pip install googletrans==3.1.0a0
+make sure you are using googletrans==3.1.0a0, install it via `pip install googletrans==3.1.0a0`
+
+
 
 
 
