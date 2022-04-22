@@ -22,7 +22,7 @@ There are 2 options:<br>
 
 # Option 1: Run stand alone
 - Login to youtube studio and download the file with your timed subs. it will look like:
-- 0:00:05.700,0:00:10.380
+`0:00:05.700,0:00:10.380
 Melick is a church village in Limburg (Netherlands)
 on the right bank of the Roer, south of the
 
@@ -41,7 +41,7 @@ Melick's Roman name was Mederiacum.
 
 0:00:14.380,0:00:15.380
 In a deed of donation from 943 the village
-is referred to as Malialicol.
+is referred to as Malialicol.`
 
 - copy the caption.sbv in the same folder as this script then command:
 
