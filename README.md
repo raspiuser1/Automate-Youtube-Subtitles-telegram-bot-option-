@@ -10,13 +10,31 @@ Then YouTube will determine the timing of the subtitles itself and this can take
 The script allows you to turn plain text (in any language) to be translated into english and converted into an (.srt subtitle) timed format which you can upload to youtube studio.<br>
 
 There are 2 options:<br>
--Run it as a telegram bot<br>
--Run it Stand alone and control it via terminal<br>
+- Run it as a telegram bot<br>
+- Run it Stand alone and control it via terminal<br>
 
 ## Hardware needed?
--Any ubuntu system will do im using an X64 machine with ubuntu 20+
--Raspberry should work also (not tested)
-make sure you are using googletrans==3.1.0a0, install it via `pip install googletrans==3.1.0a0`
+- Any ubuntu system will do im using an X64 machine with ubuntu 20+<br>
+- Raspberry should work also (not tested)
+
+## Libraries
+- make sure you are using googletrans==3.1.0a0, install it via `pip install googletrans==3.1.0a0`
+
+# Option 1: Run stand alone
+- Login 
+- copy the caption.sbv in the same folder as this script then command:
+
+python3 subs.py moviename
+
+the script will create a folder with your moviename, open it adn upload the txt file to youtube
+
+
+for translating & converting to timed subs use:
+python3 subs.py -tr textfile.txt
+
+
+
+## Youtube video to come...
 
 
 
