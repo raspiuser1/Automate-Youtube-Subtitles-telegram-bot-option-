@@ -21,7 +21,28 @@ There are 2 options:<br>
 - make sure you are using googletrans==3.1.0a0, install it via `pip install googletrans==3.1.0a0`
 
 # Option 1: Run stand alone
-- Login 
+- Login to youtube studio and download the file with your timed subs. it will look like:
+- 0:00:05.700,0:00:10.380
+Melick is a church village in Limburg (Netherlands)
+on the right bank of the Roer, south of the
+
+0:00:10.380,0:00:11.380
+city of Roermond.
+
+0:00:11.380,0:00:12.380
+Melick belongs to the municipality of Roerdalen.
+
+0:00:12.380,0:00:13.380
+Traces of Roman habitation have been found
+at Melick.
+
+0:00:13.380,0:00:14.380
+Melick's Roman name was Mederiacum.
+
+0:00:14.380,0:00:15.380
+In a deed of donation from 943 the village
+is referred to as Malialicol.
+
 - copy the caption.sbv in the same folder as this script then command:
 
 python3 subs.py moviename
