@@ -1,7 +1,8 @@
 # Automate your Youtube Subtitles (with telegram bot)
 
 Boost your youtube video? Than its time to use subtitles.
-This script makes it a lot easier to create a subtitle in a few seconds from plain text in every language.
+This script makes it a lot easier to create a subtitle in a few seconds from plain text in every language. 
+This is especially useful if you have videos that are not spoken, so you dont have to sync it with the video.  
 
 Normally if you have a standard text (in a non-English language) you first have to run it through google translate and then save it as a text file, you have to load it at youtube studio and then adjust the timing.
 Then YouTube will determine the timing of the subtitles itself and this can take a while, after that then you have to adjust the timing of these subtitles yourself because its never good and its time consuming if you have a longer video. Also when the video is long youtube will spread the subs along the video so its possible to look at the same subs for 1 of 3 minutes and that's something you dont want.
@@ -52,6 +53,7 @@ Just copy some text from a website and paste it into a txt file and run:
 # Option 2: Control it via Telegram
 - Create a Telegram bot @botfather see: https://t.me/botfather and https://core.telegram.org/bots
 - Put your key token in key.txt
+- Start the script with `python3 telbot.py`
 - Lookup your bot in telegram and send it a msg, send `/suhelp` to get the help menu, it wil look like:
 ![image](https://user-images.githubusercontent.com/13587295/164733539-cd93ab53-c213-403d-b7f5-c5caef7db68d.png)
 - Start with
