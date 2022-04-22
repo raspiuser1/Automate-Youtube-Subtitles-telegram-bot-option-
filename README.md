@@ -22,8 +22,8 @@ There are 2 options:<br>
 
 # Option 1: Run stand alone
 - Login to youtube studio and download the file with your timed subs. it will look like:
-`0:00:05.700,0:00:10.380
-Melick is a church village in Limburg (Netherlands)
+`0:00:05.700,0:00:10.380`
+`Melick is a church village in Limburg (Netherlands)`
 on the right bank of the Roer, south of the
 
 0:00:10.380,0:00:11.380
