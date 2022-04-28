@@ -37,7 +37,7 @@ autodelay = 1
 woord = 0.5 #wachttijd per woord per lijn
 
 #wachten tussen de zinnen na een punt(.)
-zinsec = 5
+zinsec = 8
 
 #starttijd 0 voor standaard (automatisch) begin met subs vanaf aantal sec (max 59 sec)
 starttijd = 2
@@ -121,11 +121,12 @@ def submain(dir1,x):
       fname3 = "captions.txt"
       
   with open(fname3, 'r') as f:
-    global tot,start,sec1,laatstetot,val2
+    global tot,start,sec1,laatstetot,val2,tempsec1
     eerstelijn = f.readline()
     start = tijd(eerstelijn,sec1,0)
     eind = cor(start,sec1,1,0)
     tot = start + "," + eind + '\n'
+    tot2 = ""
     #print(start + "," + eind +'\n')
     for line in f:
         if ":" in line and "," in line and "." in line:
@@ -142,30 +143,34 @@ def submain(dir1,x):
             tot2 =  start + "," + eind +'\n'
             laatstetot = tot2
         else:    
-            line = line.strip()
+                line = line.strip()
             #een try:
             #voor filteren van lege lijnen
-            try:
-                if autodelay == 1 :
-                    number_of_words = len(line.split())
-                    wt = round(number_of_words * woord)
-                    if wt == 0:
-                        wt = 1    
-                    eind = cor(tot2,wt,0,1)
-                    tot3 = start + "," + eind +'\n'
-                    tot = tot + tot3   
-                elif tot2 != "":
-                    tot = tot + tot2
-                tot2 = ""
-            
-                if line[-1] == ".":
+                try:  
+                    if autodelay == 1 :
+                        number_of_words = len(line.split())
+                        wt = round(number_of_words * woord)
+                        if wt == 0:
+                            wt = 1    
+                        eind = cor(tot2,wt,0,1)
+                        tot3 = start + "," + eind +'\n'
+                        tot = tot + tot3   
+                    elif tot2 != "":
+                        tot = tot + tot2
+                    tot2 = ""
+                except:
+                    pass
+                try:
+                  if line[-1] == "." or line[-2] == "." :
                     sec1 = zinsec
-                else:
+                    #print("aangepast")
+                    #print("print " + line)
+                  else:
                     sec1 = tempsec1
-            except:
-                pass
+                except:
+                  pass
                 
-            tot = tot + line + '\n'
+                tot = tot + line + '\n'
   with open(dir1 + '/captions.txt', 'w') as f:
         f.write(tot)   
   val2 = laatstetot.split(",")[0]
@@ -184,7 +189,7 @@ def submain(dir1,x):
 def translate(file1,x):
         global file9
         file9 = "translated_" + randomnu() + ".txt"
-        f = open(file1, encoding = "ISO-8859-1")
+        f = open(file1, encoding = "UTF-8")
         if f.mode == 'r':
             contents = f.read()
             #print(contents)
