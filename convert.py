@@ -21,7 +21,7 @@ def coverttosub(txt):
 	global file4
 	file4 = "converted" + randomnu() + ".txt"
 	
-	with open(txt,  encoding = "ISO-8859-1") as f:
+	with open(txt,  encoding = "UTF-8") as f:
 		lines = f.readlines()
 		max_width = 50 
 		result = ""
@@ -47,15 +47,23 @@ def coverttosub(txt):
 	alinea()
 
 
-
+def insertchar(string, index,char):
+    zin = string[:index] + char + string[index:]
+    return zin
 
 def alinea():	
-	with open(file4,  encoding = "ISO-8859-1") as f:
+	with open(file4,  encoding = "UTF-8") as f:
 		result2 = f.readlines()
 		result3 = ""
 		tel = 0
 		for line in result2:
-			result3 = result3 + line
+			if ". " in line and tel == 2:
+					pos = line.find('. ') + 1
+					if len(line[pos:]) > 20:
+						line = insertchar(line, pos, "\n\n" + tussen)
+					result3 +=  line 
+			else:	
+					result3 += line
 			if tel == 2:
 				result3 += '\n' + tussen
 				tel = 0
