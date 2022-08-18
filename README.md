@@ -1,5 +1,5 @@
 # Automate your Youtube Subtitles (with telegram bot)
-[![IMAGE VIDEO](https://img.youtube.com/vi/ZsROMOlVQlA/0.jpg)](https://www.youtube.com/watch?v=ZsROMOlVQlA)<br />
+[![IMAGE VIDEO](https://img.youtube.com/vi/7k_P50Ra1Fg/0.jpg)](https://www.youtube.com/watch?v=7k_P50Ra1Fg)<br />
 Boost your youtube video? Than its time to use subtitles.
 This script makes it a lot easier to create a subtitle in a few seconds from plain text in every language. 
 This is especially useful if you have videos that are not spoken, so you dont have to sync it with the video.  
